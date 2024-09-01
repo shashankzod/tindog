@@ -1,0 +1,148 @@
+#title{
+    background-color: #fb1530;
+}
+body{
+    font-family: Montserrat;
+}
+
+h1 {
+ font-family: Montserrat;
+ font-weight: bold;
+ color: white;
+ font-size: 3rem;
+ line-height: 1.5;
+}
+
+h2{
+    font-family:Montserrat;
+    font-weight: bold;
+    line-height: 1.5;
+    font-size: 2.5rem;
+}
+
+h3{
+    font-family: Montserrat-bold;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+.container-fluid{
+   padding: 3% 15% 7%;
+}
+
+.navbar{
+    padding-bottom: 4rem;
+}
+
+.navbar-brand{
+    font-family: Ubunto;
+    font-size: 2.3rem;
+    font-weight: bold;
+}
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-family:Montserrat-light ;
+    font-size: 1.2rem;
+}
+.download-button{
+    margin: 5% 3% 5% 0%;
+}
+.tittle{
+    width: 14%;
+    position:absolute;
+    transform: rotate(25deg);
+    right: 30%;
+   
+}
+
+#features{
+    padding: 7% 15%;
+    position:relative;
+    z-index: 1;
+   
+}
+.feature{
+    text-align: center;
+    padding: 5%;
+}
+.icon{
+    color: rgb(248, 90, 41);
+    margin-bottom: 1rem;
+}
+.icon:hover{
+    color: #fb1530;
+}
+#testimonials{
+    text-align: center;
+    background-color: rgb(248, 90, 41) ;
+    color: #FFF;
+}
+
+.testimonial-image{
+    width: 15%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+#press{
+    background-color:rgb(248, 90, 41) ;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+#pricing{
+    padding: 100px;
+}
+
+.pricing-col {
+    padding: 3% 2%;
+}
+
+#cta {
+   background-color: #fb1530;
+   color: #FFF;
+   padding: 7% 15%;
+   text-align: center;
+}
+
+.ctaa{
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 3.5rem;
+    line-height:1.5;
+}
+
+#footer{
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.social{
+    margin: 20px 10px;
+}
+
+@media(max-width: 1028px){
+    
+    #title{
+        text-align: center;
+    }
+    
+    .tittle{
+        position: static;
+        transform: rotate(0);
+        width: 30%;
+    }
+}
+
